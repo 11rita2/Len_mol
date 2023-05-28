@@ -1,0 +1,102 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Контакты</title>
+<link rel="shortcut icon" href="логотип.ico">
+</head>
+
+<body>
+<header>
+  <h1>Контакты</h1>
+</header>
+
+<nav>
+  <a href="index.html">Главная</a>
+  <a href="Новости.html"> Новости</a>
+  <a href="О нас.html">О нас</a>
+  <a href="Наша команда.html">Наша команда</a>
+</nav>
+
+<style>
+  body {
+          background-color: #ffffff;
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+      header {
+          background-color: #333;
+          color: #FFF;
+          padding: 10px;
+          text-align: center;
+      }
+      nav {
+          background-color: #333;
+          display: flex;
+          justify-content: center;
+          padding: 10px;
+      }
+  nav a {
+      color: #FFF;
+      font-size: 18px;
+      margin: 0 10px;
+      text-decoration: none;
+  }
+  nav a:hover {
+      text-decoration: underline;
+  }
+</style>
+</body>
+
+<div class="map">	
+	<div class="wrp">
+		<div class="map-box">
+			<h2>Наши контакты</h2>
+			<p>Краснодарский край, станица Ленинградская, ул. Ленина, 96Б</p>
+      <p>Вход со стороны парковки, 2 этаж</p>
+			<p><a href="tel:+7 (989) 808-80-43">+7 (989) 808-80-43; <br>+7 (861) 453-61-45</a></p>
+			<p><a href="mailto:odm_lenin@mail.ru">odm_lenin@mail.ru</a></p>
+
+     <br> График работы:
+     <br>пн. - пт. с 08:00 до 17:00, с перерывом на обед
+     <br>сб. - вс. выходные
+
+		</div>
+	</div>
+	<div id="map"></div>
+</div>
+ 
+
+
+<style>
+.wrp {
+	max-width: 900px;
+	margin: 0 auto;
+	position: relative;
+}
+.map-box { 
+	position: absolute;
+	top: 70px;
+	right: 20px; 
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #ddd;
+	z-index: 100;
+	width: 250px;
+	box-shadow: -1px -1px 24px 0px rgba(50, 50, 50, 0.5);
+}
+.map-box p {
+	font-size: 18px;
+}
+#map {
+	width: 100%; 
+	height: 67px;
+ 
+}
+</style>
+
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A236ea3342a059107d1cc7e00ed11a93cbd7f463bfb54ddbd50d58899614bd6fc&amp;width=700&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+
+</body>
+</html>
